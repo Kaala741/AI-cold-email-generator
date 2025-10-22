@@ -1,0 +1,77 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual Environments ----
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+.env*/
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ---- IDE / Editor Files ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs and Outputs ----
+*.log
+logs/
+*.out
+*.err
+
+# ---- Build / Distribution ----
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# ---- Testing ----
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+htmlcov/
+pytest_cache/
+.cache/
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Misc ----
+*.bak
+*.tmp
+*.swp
+
+# ---- Local environment configs ----
+.env
+*.env
+.envrc
+
+# ---- Streamlit generated folders ----
+.streamlit/
+
+# ---- VSCode / PyCharm etc ----
+*.code-workspace
+
+# ---- Model / Data Files ----
+*.pkl
+*.h5
+*.pt
+*.ckpt
+*.joblib
+data/
+datasets/
